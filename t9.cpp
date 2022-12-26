@@ -1,20 +1,63 @@
 #include<iostream>
+
 using namespace std;
- main()
+
+main()
 {
-system("Color 57");
-cout<<"    *****                 00000      000000             ***********"<<endl;
-cout<<"    ******               0     0    0      0            ********** "<<endl;
-cout<<"    *******                 000     0      0            *********  "<<endl;
-cout<<"    ********              000       0      0            ********   "<<endl;
-cout<<"     ********            0000000     000000 th          *******    "<<endl;
-cout<<"      ********           ..........................     ******     "<<endl;
-cout<<"        *******             C e n t u r y               *****      "<<endl;
-cout<<"          ******         ..........................     ****       "<<endl;
-cout<<"            *****        00000  0000000 0   0  00000    ***        "<<endl;
-cout<<"              ****         0    0        0 0     0      **         "<<endl;
-cout<<"                o o        0    000000    0      0      o o        "<<endl;
-cout<<"              __| |__      0    0        0 0     0    __| |__      "<<endl;
-cout<<"             |       |     0    0000000 0   0    0   |       |     "<<endl;
-cout<<"   __________|       |_____                      ____|       |________"<<endl;          
+int num1;
+int num2;
+int num3;
+int num4;
+int num5;
+int num6;
+int num7;
+int num8;
+int num9;
+int num10;
+int num11;
+int num12;
+int num13;
+int num14;
+int num15;
+int add;
+int mul;
+int sub;
+int res;
+int output;
+cout<<"Enter 1st number:";
+cin>>num1;
+cout<<"Enter 2nd number";
+cin>>num2;
+cout<<"Enter 3rd number:";
+cin>>num3;
+cout<<"Enter 4th number:";
+cin>>num4;
+cout<<"Enter 5th number:";
+cin>>num5;
+cout<<"Enter 6th number:";
+cin>>num6;
+cout<<"Enter 7th number:";
+cin>>num7;
+cout<<"Enter 8th number:";
+cin>>num8;
+cout<<"Enter 9th number:";
+cin>>num9;
+cout<<"Enter 10th number:";
+cin>>num10;
+cout<<"Enter 11th number:";
+cin>>num11;
+cout<<"Enter 12th number:";
+cin>>num12;
+cout<<"Enter 13th number:";
+cin>>num13;
+cout<<"Enter 14th number:";
+cin>>num14;
+cout<<"Enter 15th number:";
+cin>>num15;
+add=num1+num2+num3+num4+num5;
+mul=num6*num7*num8*num9*num10;
+res=add+mul;
+sub=num11-num12-num13-num14-num15;
+output=res-sub;
+cout<<"Total:"<<output;
 }
